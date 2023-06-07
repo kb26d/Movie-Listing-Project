@@ -1,0 +1,32 @@
+/* NAVBAR SECTION */
+.navbar-text {
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+
+/* POSTER SECTION */
+.poster {
+    padding: 20px 40px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.poster img {
+    width: 200px;
+    height: 300px;
+}
+
+.poster img:hover {
+    transition: transform 450ms;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.poster p {
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+}
